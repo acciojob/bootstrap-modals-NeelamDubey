@@ -1,16 +1,39 @@
-<!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" id = open-modal class="btn btn-primary" data-toggle="modal" data-target="#accio-modal">Launch newton modal</button>
+  <!-- Modal -->
+  <div class="modal fade" id = "accio-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><B>New Modal</B></h4>
+        </div>
+        <div class="modal-body">
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil adipisci modi corrupti commodi sed enim repellendus quaerat, ad deserunt fuga ipsum repudiandae, necessitatibus excepturi delectus nostrum inventore error repellat ab, ipsa odit maxime reprehenderit sapiente libero. Non, consequatur officia consequuntur dolorem cumque ipsum debitis amet sunt corporis officiis minus suscipit.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
 
 </body>
-
 </html>
